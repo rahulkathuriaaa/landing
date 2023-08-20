@@ -25,11 +25,20 @@ const GetStarted = () => (
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />
+        <div className="right">
+        </div>
       </motion.div>
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
+      <h1 className='heading'>Premium Tees</h1>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos id fugit eligendi exercitationem. Numquam alias delectus unde praesentium at minus nihil!</p>
+      <div className="but">
+        <button className='buy-button'>Buy Now</button>
+      </div>
+
         {/* <TypingText title="| How Metaversus Works" />
         <TitleText title={<>Get started with just a few clicks</>} /> */}
         {/* <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">

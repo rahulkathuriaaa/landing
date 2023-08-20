@@ -20,6 +20,12 @@ const WhatsNew = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
+        <h1 className='heading'>Premium Tees</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos id fugit eligendi exercitationem. Numquam alias delectus unde praesentium at minus nihil!</p>
+        <div className="but">
+      <button className='buy-button'>Buy Now</button>
+    </div>
         {/* <TypingText title="| Whats new?" />
         <TitleText title={<>What's new about Metaversus?</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
@@ -40,6 +46,7 @@ const WhatsNew = () => (
         />
       </motion.div>
     </motion.div>
+    
   </section>
 );
 
